@@ -1,7 +1,7 @@
 import './Brasileirao.css'
-import Navbar from '../assets/components/navbar'
+import Navbar from '../components/navbar'
 
-function SerieA (){
+export default function SerieA (){
     return(
     <div className='brasdiv'>
         <Navbar/>
@@ -11,5 +11,3 @@ function SerieA (){
     </div>
     )
 }
-
-export default SerieA;

@@ -1,7 +1,7 @@
 import './Brasileirao.css'
-import Navbar from '../assets/components/navbar'
+import Navbar from '../components/navbar'
 
-function Brasileirão (){
+export default function Brasileirão (){
     return(
     <div className='brasdiv'>
         <Navbar/>
@@ -11,5 +11,3 @@ function Brasileirão (){
     </div>
     )
 }
-
-export default Brasileirão;

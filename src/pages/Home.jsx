@@ -1,15 +1,15 @@
-import Navbar from '../assets/components/navbar';
-import Carousel from "../assets/components/carousel";
-import { slides } from "../assets/components/data";
+import Navbar from '../components/navbar';
+import Carousel from "../components/carousel";
+import { slides } from "../components/data";
 
 
 import "../pages/Home.css"
-function Home() {
+export default function Home() {
 
     return (
-        <div className='App'>
+        <div>
              <Navbar />
-            {/* Carousel */}
+            Carousel
             <Carousel images={slides} />
             <h1 align="center">Novidades</h1>
             <hr></hr>
@@ -22,9 +22,7 @@ function Home() {
                 </div>
             </div>
        <hr></hr>
-      
 
         </div>
     );
 }
-export default Home;
